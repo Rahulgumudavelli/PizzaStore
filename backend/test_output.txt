@@ -1,0 +1,77 @@
+
+> backend@1.0.0 test
+> mocha tests/**/*.test.js --timeout 10000 --exit
+
+[dotenv@17.3.1] injecting env (3) from .env -- tip: ΓÜÖ∩╕Å  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ≡ƒ¢í∩╕Å auth for agents: https://vestauth.com
+
+
+  Address API
+    POST /api/address
+Γ£à MongoDB Connected: localhost
+      Γ£ö should add a new address
+    GET /api/address
+      Γ£ö should fetch user addresses
+    PUT /api/address/:id
+(node:22596) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+      Γ£ö should update an address
+    DELETE /api/address/:id
+      Γ£ö should delete an address
+
+  Auth API
+    POST /api/auth/register
+      Γ£ö should register a new user (99ms)
+      Γ£ö should not register a user with an existing email
+    POST /api/auth/login
+      Γ£ö should login an existing user (304ms)
+      Γ£ö should return 400 for invalid credentials
+
+  Cart API
+    POST /api/cart/add
+      Γ£ö should add an item to the cart
+    GET /api/cart
+      Γ£ö should fetch user cart (53ms)
+    PUT /api/cart/update
+      Γ£ö should update item quantity (44ms)
+    DELETE /api/cart/remove/:itemId
+      Γ£ö should remove an item from the cart
+
+  Menu & Categories API
+    GET /api/categories
+      Γ£ö should fetch all categories
+    GET /api/menu
+      Γ£ö should fetch all menu items
+
+  Message API
+    GET /api/messages
+      Γ£ö should fetch user messages (64ms)
+    PUT /api/messages/:id/read
+(node:22596) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+      Γ£ö should mark message as read
+
+  Orders API
+    POST /api/orders
+      Γ£ö should create a new order (41ms)
+    GET /api/orders/my-orders
+      Γ£ö should fetch user orders
+
+  Payment API
+    POST /api/payments
+      Γ£ö should process a payment
+    GET /api/payments/:orderId
+      Γ£ö should get payment for an order
+
+  User API
+    GET /api/users/profile
+      Γ£ö should fetch user profile
+    PUT /api/users/profile
+(node:22596) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+      Γ£ö should update user profile
+    GET /api/users (Admin Only)
+      Γ£ö should allow admin to fetch all users
+      Γ£ö should deny non-admin access to fetch all users
+
+
+  24 passing (9s)
+

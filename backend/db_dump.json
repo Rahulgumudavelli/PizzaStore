@@ -1,0 +1,85 @@
+{
+  "orders": [
+    {
+      "_id": "69b3aa2b58bcbf934e6b6ed9",
+      "userId": "69b16ce6b4d0060c56ba64f2",
+      "addressId": "000000000000000000000000",
+      "items": [
+        {
+          "itemId": "69b3aa11e8b307ab95c3dcb7",
+          "name": "Margherita",
+          "price": 299,
+          "quantity": 1,
+          "_id": "69b3aa2958bcbf934e6b6ecf"
+        }
+      ],
+      "totalAmount": 299,
+      "orderStatus": "pending",
+      "deliveryMode": "delivery",
+      "createdAt": "2026-03-13T06:09:47.348Z",
+      "updatedAt": "2026-03-13T06:09:47.348Z",
+      "__v": 0
+    },
+    {
+      "_id": "69b3ab3958bcbf934e6b6efc",
+      "userId": "69b16ce6b4d0060c56ba64f2",
+      "addressId": "000000000000000000000000",
+      "items": [
+        {
+          "itemId": "69b3aa11e8b307ab95c3dcb7",
+          "name": "Margherita",
+          "price": 299,
+          "quantity": 1,
+          "_id": "69b3ab3858bcbf934e6b6ef2"
+        }
+      ],
+      "totalAmount": 299,
+      "orderStatus": "pending",
+      "deliveryMode": "delivery",
+      "createdAt": "2026-03-13T06:14:17.576Z",
+      "updatedAt": "2026-03-13T06:14:17.576Z",
+      "__v": 0
+    },
+    {
+      "_id": "69b3ae7458bcbf934e6b6f2b",
+      "userId": "69b16ce6b4d0060c56ba64f2",
+      "addressId": "000000000000000000000000",
+      "items": [
+        {
+          "itemId": "69b3aa11e8b307ab95c3dcb7",
+          "name": "Margherita",
+          "price": 299,
+          "quantity": 1,
+          "_id": "69b3ae7358bcbf934e6b6f21"
+        }
+      ],
+      "totalAmount": 299,
+      "orderStatus": "pending",
+      "deliveryMode": "delivery",
+      "createdAt": "2026-03-13T06:28:04.861Z",
+      "updatedAt": "2026-03-13T06:28:04.861Z",
+      "__v": 0
+    },
+    {
+      "_id": "69b3bbcf3d21fd66a7685ccd",
+      "userId": "69b16ce6b4d0060c56ba64f2",
+      "addressId": "000000000000000000000000",
+      "items": [
+        {
+          "itemId": "69b3aa11e8b307ab95c3dcb7",
+          "name": "Margherita",
+          "price": 299,
+          "quantity": 1,
+          "_id": "69b3bbc63d21fd66a7685cc3"
+        }
+      ],
+      "totalAmount": 299,
+      "orderStatus": "pending",
+      "deliveryMode": "delivery",
+      "createdAt": "2026-03-13T07:25:03.714Z",
+      "updatedAt": "2026-03-13T07:25:03.714Z",
+      "__v": 0
+    }
+  ],
+  "carts": []
+}
